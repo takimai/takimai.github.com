@@ -5,11 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>My Laboratory</title>
+  <meta name="author" content="takimai">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="ruby -e &#8220;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&#8221;
+brew doctor
+brew update
+brew install rbenv
+brew install ruby-build 1.9.3- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,10 +22,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://yoursite.com">
+  <link rel="canonical" href="http://takimai.github.com">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="My Laboratory" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -36,7 +40,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">My Laboratory</a></h1>
   
     <h2>A blogging framework for hackers.</h2>
   
@@ -50,7 +54,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:yoursite.com" />
+    <input type="hidden" name="q" value="site:takimai.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -66,6 +70,70 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/27/test/">Test</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-27T01:06:00+09:00" pubdate data-updated="true">Mar 27<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>ruby -e &#8220;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&#8221;
+brew doctor
+brew update
+brew install rbenv
+brew install ruby-build</p>
+
+<h1>1.9.3-p392に切り替え</h1>
+
+<p>$ rbenv global 1.9.3-p392</p>
+
+<h1>システムのデフォルトrubyに戻す</h1>
+
+<p>$ rbenv global system</p>
+
+<h1>特定のディレクトリ以下のRubyバージョンを切り替え</h1>
+
+<p>$ rbenv local 1.9.3-p392</p>
+
+<h1>ローカル設定を解除</h1>
+
+<p>$ rbenv local &#8211;unset</p>
+
+<h1>インストールしたrubyやgemのパスを通す</h1>
+
+<p>$ rbenv rehash</p>
+
+<h1>インストール済みのRuby一覧を見る</h1>
+
+<p>$ rbenv versions</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -77,6 +145,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/27/test/">test</a>
+      </li>
     
   </ul>
 </section>
@@ -91,7 +163,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
+  Copyright &copy; 2013 - takimai -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

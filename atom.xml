@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-03-27T01:00:45+09:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[My Laboratory]]></title>
+  <link href="http://takimai.github.com/atom.xml" rel="self"/>
+  <link href="http://takimai.github.com/"/>
+  <updated>2013-03-27T01:11:10+09:00</updated>
+  <id>http://takimai.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[takimai]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://takimai.github.com/blog/2013/03/27/test/"/>
+    <updated>2013-03-27T01:06:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/03/27/test</id>
+    <content type="html"><![CDATA[<p>ruby -e &#8220;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&#8221;
+brew doctor
+brew update
+brew install rbenv
+brew install ruby-build</p>
+
+<h1>1.9.3-p392に切り替え</h1>
+
+<p>$ rbenv global 1.9.3-p392</p>
+
+<h1>システムのデフォルトrubyに戻す</h1>
+
+<p>$ rbenv global system</p>
+
+<h1>特定のディレクトリ以下のRubyバージョンを切り替え</h1>
+
+<p>$ rbenv local 1.9.3-p392</p>
+
+<h1>ローカル設定を解除</h1>
+
+<p>$ rbenv local &#8211;unset</p>
+
+<h1>インストールしたrubyやgemのパスを通す</h1>
+
+<p>$ rbenv rehash</p>
+
+<h1>インストール済みのRuby一覧を見る</h1>
+
+<p>$ rbenv versions</p>
+]]></content>
+  </entry>
   
 </feed>

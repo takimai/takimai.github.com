@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2013-03-27T01:00:35+09:00</lastmod>
+        <loc>http://takimai.github.com/blog/2013/03/27/test/</loc>
+        <lastmod>2013-03-27T01:10:41+09:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2013-03-27T01:00:35+09:00</lastmod>
+        <loc>http://takimai.github.com/blog/archives/</loc>
+        <lastmod>2013-03-27T01:10:41+09:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/robots.txt</loc>
+        <loc>http://takimai.github.com/</loc>
+        <lastmod>2013-03-27T01:10:41+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://takimai.github.com/robots.txt</loc>
         <lastmod>2013-03-27T01:00:35+09:00</lastmod>
     </url>
 </urlset>
