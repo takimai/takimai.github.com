@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-03-29T00:19:26+09:00</updated>
+  <updated>2013-03-29T00:57:18+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown記法まとめ]]></title>
+    <link href="http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary/"/>
+    <updated>2013-03-29T00:53:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary</id>
+    <content type="html"><![CDATA[<h3>Markdown記法 チートシート</h3>
+
+<p>https://github.com/roberto/oct2-orange/blob/master/source/index.html</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressテーマの変更]]></title>
+    <link href="http://takimai.github.com/blog/2013/03/29/replacing-new-theme/"/>
+    <updated>2013-03-29T00:35:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/03/29/replacing-new-theme</id>
+    <content type="html"><![CDATA[<h3>oct2-orangeプラグイン</h3>
+
+<p>https://github.com/roberto/oct2-orange/blob/master/source/index.html</p>
+
+<pre><code>git submodule add git://github.com/roberto/oct2-orange.git .themes/oct2-orange
+rake install[oct2-orange] 
+</code></pre>
+
+<p>nav.html を_config.ymlへ追加する。</p>
+
+<pre><code>default_asides: [asides/nav.html, asides/recent_posts.html ....
+</code></pre>
+
+<h3>3rd Party Octopress Themes</h3>
+
+<p>https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress初期セットアップ]]></title>

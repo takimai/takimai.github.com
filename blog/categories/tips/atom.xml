@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Octopress | My Laboratory]]></title>
-  <link href="http://takimai.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Tips | My Laboratory]]></title>
+  <link href="http://takimai.github.com/blog/categories/tips/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
   <updated>2013-03-29T00:57:18+09:00</updated>
   <id>http://takimai.github.com/</id>

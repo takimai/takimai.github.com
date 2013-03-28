@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Laboratory</title>
+  <title>Markdown記法まとめ - My Laboratory</title>
   <meta name="author" content="takimai">
 
   
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://takimai.github.com/">
+  <link rel="canonical" href="http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
    <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -62,15 +62,12 @@
 </nav> -->
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/03/29/markdown-syntax-summary/">Markdown記法まとめ</a></h1>
+      <h1 class="entry-title">Markdown記法まとめ</h1>
     
     
       <p class="meta">
@@ -93,77 +90,20 @@
   </header>
 
 
-  <div class="entry-content"><h3>Markdown記法 チートシート</h3>
+<div class="entry-content"><h3>Markdown記法 チートシート</h3>
 
 <p>https://github.com/roberto/oct2-orange/blob/master/source/index.html</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/29/replacing-new-theme/">Octopressテーマの変更</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">takimai</span></span>
 
-<time datetime="2013-03-29T00:35:00+09:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>oct2-orangeプラグイン</h3>
-
-<p>https://github.com/roberto/oct2-orange/blob/master/source/index.html</p>
-
-<pre><code>git submodule add git://github.com/roberto/oct2-orange.git .themes/oct2-orange
-rake install[oct2-orange] 
-</code></pre>
-
-<p>nav.html を_config.ymlへ追加する。</p>
-
-<pre><code>default_asides: [asides/nav.html, asides/recent_posts.html ....
-</code></pre>
-
-<h3>3rd Party Octopress Themes</h3>
-
-<p>https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/28/octopress-initial-setup/">Octopress初期セットアップ</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -175,93 +115,32 @@ rake install[oct2-orange]
   
 
 
-<time datetime="2013-03-28T01:07:00+09:00" pubdate data-updated="true">Mar 28<span>th</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-03-29T00:53:00+09:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Mac MiniにOctopressをインストールし、Githubへデプロイさせた時の手順をまとめています。</p>
-
-<p>環境
-Mac mini OS X Mountain Lion (10.8.2)</p>
-
-<p>Octopress のインストールとデプロイ</p>
-
-<pre><code>cd
-cd dropbox
-git clone git://github.com/imathis/octopress.git octopress
-cd octopress
-gem install bundler
-rbenv rehash
-bundle install
-rake install
-rake setup_github_pages
-rake generate
-rake deploy
-</code></pre>
-
-<p>rake generate 実行時にエラーが発生
-jsonが入ってないので、requireした箇所でエラーが発生</p>
-
-<pre><code>Gemfileにjsonを追記した。
-</code></pre>
-
-<p>構文エラー(SyntaxError)が発生</p>
-
-<pre><code>Rubyのバージョンが1.8.7だったので、1.9.3へあげる。
-</code></pre>
-
-<p>Rubyのインストール</p>
-
-<pre><code>Home Brew をインストール
-Xcode, Command Line Tools for Xcode をGUIよりインストール
-    ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
-    brew doctor
-    brew update
-    brew install rbenv
-    brew install ruby-build
-
-1.9.3-p392に切り替え
-rbenv global 1.9.3-p194
-
-システムのデフォルトrubyに戻す
-rbenv global system
-
-インストールしたrubyやgemのパスを通す
-rbenv rehash
-
-インストール済みのRuby一覧を見る
-rbenv versions
-
-その後、ターミナルを再起動。
-
-正常にインストールしたバージョンが表示されるのを確認
-ruby -v 
-
-rbenv versionsでは正常なバージョンが指定されているものの、
-ruby -v でシステムのrubyのバージョンが表示され、しばらくハマった。
-
-rubyのパスが通っていること、ターミナルの再起動をすることで解消した。
-</code></pre>
-
-<p>参考
-MacでOctopressをgithub pagesにセットアップするまでに行った事
-http://qiita.com/items/06d8e447baee99163fc3</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary/" data-via="" data-counturl="http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/03/29/replacing-new-theme/" title="Previous Post: Octopressテーマの変更">&laquo; Octopressテーマの変更</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -299,6 +178,7 @@ http://qiita.com/items/06d8e447baee99163fc3</p>
 
   
 </aside>
+
 
     </div>
   </div>
