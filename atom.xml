@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-03-29T00:57:18+09:00</updated>
+  <updated>2013-04-02T23:34:00+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -18,9 +18,15 @@
     <link href="http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary/"/>
     <updated>2013-03-29T00:53:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary</id>
-    <content type="html"><![CDATA[<h3>Markdown記法 チートシート</h3>
+    <content type="html"><![CDATA[<p>Markdown はHTMLのMarkupをもじっているそうだ。
+Octopressの記事はMarkdown形式で生成されるので、そのままMarkdown記法を使えば、記事のレイアウトが楽になる。
+ということで、記事を書くときによく使うと思われるものをピックアップしたいと思う。</p>
 
-<p>https://github.com/roberto/oct2-orange/blob/master/source/index.html</p>
+<h2>H2タイトル</h2>
+
+<h3>Markdown記法 チートシート</h3>
+
+<p>https://github.com/roberto/oct2-orange/blob/master/source/index.htm</p>
 ]]></content>
   </entry>
   
