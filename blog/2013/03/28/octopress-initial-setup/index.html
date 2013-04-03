@@ -132,39 +132,39 @@ jsonが入ってないので、requireした箇所でエラーが発生
 
 <p>Rubyのインストール</p>
 
-<pre><code>Home Brew をインストール
-Xcode, Command Line Tools for Xcode をGUIよりインストール
+<pre><code># Home Brew をインストール
+# Xcode, Command Line Tools for Xcode をGUIよりインストール
     ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
     brew doctor
     brew update
     brew install rbenv
     brew install ruby-build
 
-1.9.3-p392に切り替え
+# 1.9.3-p392に切り替え
 rbenv global 1.9.3-p194
 
-システムのデフォルトrubyに戻す
+# システムのデフォルトrubyに戻す
 rbenv global system
 
-インストールしたrubyやgemのパスを通す
+# インストールしたrubyやgemのパスを通す
 rbenv rehash
 
-インストール済みのRuby一覧を見る
+# インストール済みのRuby一覧を見る
 rbenv versions
 
-その後、ターミナルを再起動。
+# その後、ターミナルを再起動。
 
-正常にインストールしたバージョンが表示されるのを確認
+# 正常にインストールしたバージョンが表示されるのを確認
 ruby -v 
-
-rbenv versionsでは正常なバージョンが指定されているものの、
-ruby -v でシステムのrubyのバージョンが表示され、しばらくハマった。
-
-rubyのパスが通っていること、ターミナルの再起動をすることで解消した。
 </code></pre>
 
-<p>[参考リンク]
-<a href="http://qiita.com/items/06d8e447baee99163fc3" title="MacでOctopressをgithub pagesにセットアップするまでに行った事">MacでOctopressをgithub pagesにセットアップするまでに行った事</a></p>
+<p> rbenv versionsでは正常なバージョンが指定されているものの、
+ ruby -v でシステムのrubyのバージョンが表示され、しばらくハマった。</p>
+
+<p> rubyのパスが通っていること、ターミナルの再起動をすることで解消した。</p>
+
+<p>[参考]
+<a href="http://qiita.com/items/06d8e447baee99163fc3">MacでOctopressをgithub pagesにセットアップするまでに行った事</a></p>
 </div>
 
 
