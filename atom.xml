@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-04T00:32:09+09:00</updated>
+  <updated>2013-04-04T01:43:47+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -18,7 +18,7 @@
     <link href="http://takimai.github.com/blog/2013/04/03/octopress-customization/"/>
     <updated>2013-04-03T23:49:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/04/03/octopress-customization</id>
-    <content type="html"><![CDATA[<p>Octopressのカスタマイズのリンクです。</p>
+    <content type="html"><![CDATA[<p>Octopressのカスタマイズのリンク。</p>
 
 <p><a href="http://morizyun.github.com/blog/octopress-hatena-disqus-new-tab/" title="5分でできる簡単 Octopress セッティング">5分でできる簡単 Octopress セッティング</a></p>
 
@@ -32,8 +32,11 @@
     <updated>2013-03-29T00:53:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary</id>
     <content type="html"><![CDATA[<p>Markdown はHTMLのMarkupをもじっているそうだ。   <br/>
-Octopressの記事はMarkdown形式で生成されるので、そのままMarkdown記法を使えば、記事のレイアウトが楽になる。   <br/>
-ということで、記事を書くときによく使うと思われるものをピックアップしたいと思う。</p>
+Octopressの記事はMarkdown形式で生成されるので、そのままMarkdown記法を使って書けば、レイアウトを楽に調整することができる。   <br/>
+ということで、記事を書くときによく使うと思われるものをピックアップしたいと思う。   <br/>
+記事で使った記法についても、備忘録としてこの記事に掲載していく。</p>
+
+<p>見出し文字</p>
 
 <hr />
 
@@ -56,6 +59,8 @@ Octopressの記事はMarkdown形式で生成されるので、そのままMarkdo
 <p><a href="http://daringfireball.net/projects/markdown/syntax.php">Markdown: Syntax</a></p>
 
 <p><a href="http://kojika17.com/2013/01/starting-markdown.html">文章作成やメモ書きにも便利、Markdown記法</a></p>
+
+<p><a href="http://rcmdnk.github.com/blog/2013/03/23/octopress/">Octopress Tips</a></p>
 ]]></content>
   </entry>
   
