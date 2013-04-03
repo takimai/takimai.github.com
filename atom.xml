@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-02T23:34:00+09:00</updated>
+  <updated>2013-04-04T00:10:35+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress カスタマイズ]]></title>
+    <link href="http://takimai.github.com/blog/2013/04/03/octopress-customization/"/>
+    <updated>2013-04-03T23:49:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/04/03/octopress-customization</id>
+    <content type="html"><![CDATA[<p>Octopressのカスタマイズのリンクです。</p>
+
+<p><a href="http://morizyun.github.com/blog/octopress-hatena-disqus-new-tab/" title="5分でできる簡単 Octopress セッティング">5分でできる簡単 Octopress セッティング</a></p>
+
+<p><a href="http://qiita.com/items/c686397e4a0f4f11683d" title="Markdown記法 チートシート">Markdown記法 チートシート</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown記法まとめ]]></title>
@@ -80,15 +93,10 @@ rake deploy
 </code></pre>
 
 <p>rake generate 実行時にエラーが発生
-jsonが入ってないので、requireした箇所でエラーが発生</p>
-
-<pre><code>Gemfileにjsonを追記した。
-</code></pre>
-
-<p>構文エラー(SyntaxError)が発生</p>
-
-<pre><code>Rubyのバージョンが1.8.7だったので、1.9.3へあげる。
-</code></pre>
+jsonが入ってないので、requireした箇所でエラーが発生
+　Gemfileにjsonを追記した。
+構文エラー(SyntaxError)が発生
+　Rubyのバージョンが1.8.7だったので、1.9.3へ上げた。</p>
 
 <p>Rubyのインストール</p>
 
@@ -123,9 +131,8 @@ ruby -v でシステムのrubyのバージョンが表示され、しばらく�
 rubyのパスが通っていること、ターミナルの再起動をすることで解消した。
 </code></pre>
 
-<p>参考
-MacでOctopressをgithub pagesにセットアップするまでに行った事
-http://qiita.com/items/06d8e447baee99163fc3</p>
+<p>[参考リンク]
+<a href="http://qiita.com/items/06d8e447baee99163fc3" title="MacでOctopressをgithub pagesにセットアップするまでに行った事">MacでOctopressをgithub pagesにセットアップするまでに行った事</a></p>
 ]]></content>
   </entry>
   

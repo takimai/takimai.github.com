@@ -36,6 +36,18 @@ git clone git:// &hellip;">
 
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39826750-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -113,15 +125,10 @@ rake deploy
 </code></pre>
 
 <p>rake generate 実行時にエラーが発生
-jsonが入ってないので、requireした箇所でエラーが発生</p>
-
-<pre><code>Gemfileにjsonを追記した。
-</code></pre>
-
-<p>構文エラー(SyntaxError)が発生</p>
-
-<pre><code>Rubyのバージョンが1.8.7だったので、1.9.3へあげる。
-</code></pre>
+jsonが入ってないので、requireした箇所でエラーが発生
+　Gemfileにjsonを追記した。
+構文エラー(SyntaxError)が発生
+　Rubyのバージョンが1.8.7だったので、1.9.3へ上げた。</p>
 
 <p>Rubyのインストール</p>
 
@@ -156,9 +163,8 @@ ruby -v でシステムのrubyのバージョンが表示され、しばらく�
 rubyのパスが通っていること、ターミナルの再起動をすることで解消した。
 </code></pre>
 
-<p>参考
-MacでOctopressをgithub pagesにセットアップするまでに行った事
-http://qiita.com/items/06d8e447baee99163fc3</p>
+<p>[参考リンク]
+<a href="http://qiita.com/items/06d8e447baee99163fc3" title="MacでOctopressをgithub pagesにセットアップするまでに行った事">MacでOctopressをgithub pagesにセットアップするまでに行った事</a></p>
 </div>
 
 
@@ -186,7 +192,7 @@ http://qiita.com/items/06d8e447baee99163fc3</p>
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/octopress/'>octopress</a>
+    <a class='category' href='/blog/categories/octopress/'>Octopress</a>
   
 </span>
 
@@ -228,6 +234,10 @@ http://qiita.com/items/06d8e447baee99163fc3</p>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/03/octopress-customization/">Octopress カスタマイズ</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/03/29/markdown-syntax-summary/">Markdown記法まとめ</a>
