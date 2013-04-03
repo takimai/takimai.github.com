@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-04T00:31:07+09:00</updated>
+  <updated>2013-04-04T00:32:09+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -31,8 +31,8 @@
     <link href="http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary/"/>
     <updated>2013-03-29T00:53:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/03/29/markdown-syntax-summary</id>
-    <content type="html"><![CDATA[<p>Markdown はHTMLのMarkupをもじっているそうだ。<br/>
-Octopressの記事はMarkdown形式で生成されるので、そのままMarkdown記法を使えば、記事のレイアウトが楽になる。<br/>
+    <content type="html"><![CDATA[<p>Markdown はHTMLのMarkupをもじっているそうだ。   <br/>
+Octopressの記事はMarkdown形式で生成されるので、そのままMarkdown記法を使えば、記事のレイアウトが楽になる。   <br/>
 ということで、記事を書くときによく使うと思われるものをピックアップしたいと思う。</p>
 
 <hr />
