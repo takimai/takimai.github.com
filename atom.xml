@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-04T01:43:47+09:00</updated>
+  <updated>2013-04-15T23:10:19+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[外部ネットワークから自宅のMacへ接続する]]></title>
+    <link href="http://takimai.github.com/blog/2013/04/15/access-home-computer-with-logmein/"/>
+    <updated>2013-04-15T22:14:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/04/15/access-home-computer-with-logmein</id>
+    <content type="html"><![CDATA[<h3>外部ネットワークから自宅のMacへ接続する</h3>
+
+<p>やりたいことは、外部から自宅のMacへ接続し、Octopressの記事を書いてデプロイすること。
+OpenSSHサーバを公開することも考えたが、安易に公開すると、セキュリティ面で不安が残る。
+vpnサーバも同様の理由で、断念した。Macの仮想マシンを使って、などいろいろ試してみたいことはあるが、
+まずは外部から、どんな形でもterminalを触れればいいので、リモートデスクトップソフトのLogMeInを試してみることにした。</p>
+
+<h4>MacへLogMeInのインストール</h4>
+
+<p>以下よりダウンロードして、インストール。
+以前使っていたアカウントを使った。
+<a href="https://secure.logmein.com/jp/" title="LogMeIn">LogMeIn</a></p>
+
+<h4>iPadへLogMeInのインストール</h4>
+
+<p>すでにAppStoreからインストールしていた。</p>
+
+<h4>確認すべきこと</h4>
+
+<p>・リモートソフト上からterminalを動かすことになるので、きちんと操作できるか
+・3Gネットワークでもきちんと動作するか
+・問題があれば他の案を検討する</p>
+
+<h4>検証結果</h4>
+
+<p>・３Gネットワークからのアクセスであっても意外と安定している。
+・Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。
+・キーボードの操作についても比較的快適だった。特殊キーが充実している。</p>
+
+<h4>試しにNew　Postしてみる。</h4>
+
+<p>rake new_post[&#8220;記事のタイトル&#8221;]
+で記事を作成する。</p>
+
+<h4>記事をipadから編集する。</h4>
+
+<p>new_postコマンドで作成したファイルは.markdwon形式のため、ipadで編集できるアプリがなかった。
+探してみたところ、以下のようなソフトを見つけた。</p>
+
+<p><a href="https://itunes.apple.com/jp/app/nocs-text-editor-dropbox-markdown/id396073482?mt=8" title="Nocs™ — text editor with Dropbox and Markdown">Nocs™ — text editor with Dropbox and Markdown</a></p>
+
+<p>これでMarkdownの編集ができる。
+ファイルをNocsから保存して、rake gem_dep で記事を追加して更新する。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress カスタマイズ]]></title>
