@@ -4,7 +4,7 @@
   <title><![CDATA[Category: remote | My Laboratory]]></title>
   <link href="http://takimai.github.com/blog/categories/remote/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-15T23:10:19+09:00</updated>
+  <updated>2013-04-17T00:10:19+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -18,49 +18,48 @@
     <link href="http://takimai.github.com/blog/2013/04/15/access-home-computer-with-logmein/"/>
     <updated>2013-04-15T22:14:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/04/15/access-home-computer-with-logmein</id>
-    <content type="html"><![CDATA[<h3>外部ネットワークから自宅のMacへ接続する</h3>
+    <content type="html"><![CDATA[<h1>外部から自宅のMacへ接続する</h1>
 
 <p>やりたいことは、外部から自宅のMacへ接続し、Octopressの記事を書いてデプロイすること。
 OpenSSHサーバを公開することも考えたが、安易に公開すると、セキュリティ面で不安が残る。
 vpnサーバも同様の理由で、断念した。Macの仮想マシンを使って、などいろいろ試してみたいことはあるが、
-まずは外部から、どんな形でもterminalを触れればいいので、リモートデスクトップソフトのLogMeInを試してみることにした。</p>
+まずは外部から、どんな形でもterminalを触れればいいので、以前Windowsで使ったことがあるリモートデスクトップソフトのLogMeInを使うことにした。</p>
 
-<h4>MacへLogMeInのインストール</h4>
+<h3>MacへLogMeInのインストール</h3>
 
 <p>以下よりダウンロードして、インストール。
 以前使っていたアカウントを使った。
 <a href="https://secure.logmein.com/jp/" title="LogMeIn">LogMeIn</a></p>
 
-<h4>iPadへLogMeInのインストール</h4>
+<h3>iPadへLogMeInのインストール</h3>
 
 <p>すでにAppStoreからインストールしていた。</p>
 
-<h4>確認すべきこと</h4>
+<h3>確認すべきこと</h3>
 
-<p>・リモートソフト上からterminalを動かすことになるので、きちんと操作できるか
-・3Gネットワークでもきちんと動作するか
-・問題があれば他の案を検討する</p>
+<p>-リモートソフト上からterminalを動かすことになるので、きちんと操作できるか
+-3Gネットワークでもきちんと動作するか
+-問題があれば他の案を検討する</p>
 
-<h4>検証結果</h4>
+<h3>検証結果</h3>
 
-<p>・３Gネットワークからのアクセスであっても意外と安定している。
-・Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。
-・キーボードの操作についても比較的快適だった。特殊キーが充実している。</p>
+<p>-３Gネットワークからのアクセスであっても意外と安定している。
+-Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。
+-キーボードの操作についても比較的快適だった。特殊キーが充実している。</p>
 
-<h4>試しにNew　Postしてみる。</h4>
+<h3>試しにnew_postで記事を投稿する。</h3>
 
 <p>rake new_post["記事のタイトル"]
 で記事を作成する。</p>
 
-<h4>記事をipadから編集する。</h4>
+<h3>記事をipadから編集する。</h3>
 
 <p>new_postコマンドで作成したファイルは.markdwon形式のため、ipadで編集できるアプリがなかった。
 探してみたところ、以下のようなソフトを見つけた。</p>
 
 <p><a href="https://itunes.apple.com/jp/app/nocs-text-editor-dropbox-markdown/id396073482?mt=8" title="Nocs™ — text editor with Dropbox and Markdown">Nocs™ — text editor with Dropbox and Markdown</a></p>
 
-<p>これでMarkdownの編集ができる。
-ファイルをNocsから保存して、rake gem_dep で記事を追加して更新する。</p>
+<p>これでMarkdownの編集ができる。ファイルをNocsから保存して、rake gen_dep で記事を追加して更新できることを確認した。</p>
 ]]></content>
   </entry>
   
