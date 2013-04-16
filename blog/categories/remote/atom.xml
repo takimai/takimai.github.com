@@ -4,7 +4,7 @@
   <title><![CDATA[Category: remote | My Laboratory]]></title>
   <link href="http://takimai.github.com/blog/categories/remote/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-17T00:20:11+09:00</updated>
+  <updated>2013-04-17T00:21:43+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -22,25 +22,25 @@
 OpenSSHサーバを公開することも考えたが、安易に公開すると、セキュリティ面で不安が残る。
 vpnサーバも同様の理由で断念した。いろいろ試してみたいことはあるが、まずは外部からterminalを触れればいいので、以前Windowsで使ったことがあるリモートデスクトップソフトのLogMeInを使うことにした。</p>
 
-<h3>MacへLogMeInのインストール</h3>
+<h2>MacへLogMeInのインストール</h2>
 
 <p>以下よりダウンロードして、インストール。
 以前使っていたアカウントを使った。</p>
 
 <p><a href="https://secure.logmein.com/jp/" title="LogMeIn">LogMeIn</a></p>
 
-<h3>iPadへLogMeInのインストール</h3>
+<h2>iPadへLogMeInのインストール</h2>
 
 <p>すでにAppStoreからインストールしていたのでそのまま。</p>
 
-<h3>確認すべきこと</h3>
+<h2>確認すべきこと</h2>
 
 <pre><code>- リモートソフト上からterminalを動かすことになるので、きちんと操作できるか
 - 3Gネットワークでもきちんと動作するか
 - 問題があれば他の案を検討する
 </code></pre>
 
-<h3>検証結果</h3>
+<h2>検証結果</h2>
 
 <pre><code>- ３Gネットワークからのアクセスであっても意外と安定している。
 - Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。
