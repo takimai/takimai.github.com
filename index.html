@@ -123,31 +123,35 @@ vpnサーバも同様の理由で断念した。いろいろ試してみたい�
 
 <h2>確認すべきこと</h2>
 
-<pre><code>- リモートソフト上からterminalを動かすことになるので、きちんと操作できるか
-- 3Gネットワークでもきちんと動作するか
-- 問題があれば他の案を検討する
-</code></pre>
+<ul>
+<li>リモートソフト上からterminalを動かすことになるので、きちんと操作できるか</li>
+<li>3Gネットワークでもきちんと動作するか</li>
+<li>問題があれば他の案を検討する</li>
+</ul>
+
 
 <h2>検証結果</h2>
 
-<pre><code>- ３Gネットワークからのアクセスであっても意外と安定している。
-- Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。
-- キーボードの操作についても比較的快適だった。特殊キーが充実している。
-</code></pre>
+<ul>
+<li>３Gネットワークからのアクセスであっても意外と安定している。</li>
+<li>Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。</li>
+<li>キーボードの操作についても比較的快適だった。特殊キーが充実している。</li>
+</ul>
 
-<h3>試しにnew_postで記事を投稿する。</h3>
+
+<h2>試しにnew_postで記事を投稿する。</h2>
 
 <p><code>rake new_post["記事のタイトル"]</code>
 で記事を作成する。</p>
 
-<h3>記事をipadから編集する。</h3>
+<h2>記事をipadから編集する。</h2>
 
 <p>new_postコマンドで作成したファイルは.markdwon形式のため、ipadで編集できるアプリがなかった。
 探してみたところ、以下のようなソフトを見つけた。</p>
 
 <p><a href="https://itunes.apple.com/jp/app/nocs-text-editor-dropbox-markdown/id396073482?mt=8" title="Nocs™ — text editor with Dropbox and Markdown">Nocs™ — text editor with Dropbox and Markdown</a></p>
 
-<p>これでMarkdownの編集ができる。ファイルをNocsから保存して、<code>rake gen_deploy</code> で記事を追加して更新できることを確認した。</p>
+<p>このアプリでMarkdownの編集ができる。ファイルをNocsから保存して、<code>rake gen_deploy</code> で記事を追加して更新できることを確認した。</p>
 </div>
   
   
