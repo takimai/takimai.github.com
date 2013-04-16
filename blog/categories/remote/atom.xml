@@ -4,7 +4,7 @@
   <title><![CDATA[Category: remote | My Laboratory]]></title>
   <link href="http://takimai.github.com/blog/categories/remote/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-17T00:17:20+09:00</updated>
+  <updated>2013-04-17T00:20:11+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -20,36 +20,32 @@
     <id>http://takimai.github.com/blog/2013/04/15/access-home-computer-with-logmein</id>
     <content type="html"><![CDATA[<p>やりたいことは、外部から自宅のMacへ接続し、Octopressの記事を書いてデプロイすること。
 OpenSSHサーバを公開することも考えたが、安易に公開すると、セキュリティ面で不安が残る。
-vpnサーバも同様の理由で、断念した。Macの仮想マシンを使って、などいろいろ試してみたいことはあるが、
-まずは外部から、どんな形でもterminalを触れればいいので、以前Windowsで使ったことがあるリモートデスクトップソフトのLogMeInを使うことにした。</p>
+vpnサーバも同様の理由で断念した。いろいろ試してみたいことはあるが、まずは外部からterminalを触れればいいので、以前Windowsで使ったことがあるリモートデスクトップソフトのLogMeInを使うことにした。</p>
 
 <h3>MacへLogMeInのインストール</h3>
 
 <p>以下よりダウンロードして、インストール。
-以前使っていたアカウントを使った。
-<a href="https://secure.logmein.com/jp/" title="LogMeIn">LogMeIn</a></p>
+以前使っていたアカウントを使った。</p>
+
+<p><a href="https://secure.logmein.com/jp/" title="LogMeIn">LogMeIn</a></p>
 
 <h3>iPadへLogMeInのインストール</h3>
 
-<p>すでにAppStoreからインストールしていた。</p>
+<p>すでにAppStoreからインストールしていたのでそのまま。</p>
 
 <h3>確認すべきこと</h3>
 
-<ul>
-<li>リモートソフト上からterminalを動かすことになるので、きちんと操作できるか</li>
-<li>3Gネットワークでもきちんと動作するか</li>
-<li>問題があれば他の案を検討する</li>
-</ul>
-
+<pre><code>- リモートソフト上からterminalを動かすことになるので、きちんと操作できるか
+- 3Gネットワークでもきちんと動作するか
+- 問題があれば他の案を検討する
+</code></pre>
 
 <h3>検証結果</h3>
 
-<ul>
-<li>３Gネットワークからのアクセスであっても意外と安定している。</li>
-<li>Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。</li>
-<li>キーボードの操作についても比較的快適だった。特殊キーが充実している。</li>
-</ul>
-
+<pre><code>- ３Gネットワークからのアクセスであっても意外と安定している。
+- Terminalにコマンドを打ち込んで実行するくらいであれば、十分のレスポンス。
+- キーボードの操作についても比較的快適だった。特殊キーが充実している。
+</code></pre>
 
 <h3>試しにnew_postで記事を投稿する。</h3>
 
