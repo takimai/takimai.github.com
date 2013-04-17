@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Books | My Laboratory]]></title>
+  <link href="http://takimai.github.com/blog/categories/books/atom.xml" rel="self"/>
+  <link href="http://takimai.github.com/"/>
+  <updated>2013-04-18T00:39:08+09:00</updated>
+  <id>http://takimai.github.com/</id>
+  <author>
+    <name><![CDATA[takimai]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[これから読む本と読んだ本]]></title>
+    <link href="http://takimai.github.com/blog/2013/04/18/books-ive-read-or-planning-to-read/"/>
+    <updated>2013-04-18T00:06:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/04/18/books-ive-read-or-planning-to-read</id>
+    <content type="html"><![CDATA[<h1>これから読む本</h1>
+
+<p><a href="http://tatsu-zine.com/samples/free/scheme-in-ruby.pdf">つくって学ぶプログラミング言語　RubyによるScheme処理系の実装</a></p>
+
+<p><a href="http://tatsu-zine.com/books/learnalgorithm">アルゴリズムを学ぼう</a></p>
+
+<p><a href="http://mitpress.mit.edu/sicp/">Structure and Interpretation of Computer Programs</a></p>
+
+<h1>読んだ本</h1>
+
+<p><a href="http://www.amazon.co.jp/%E3%82%B5%E3%83%BC%E3%83%90%EF%BC%8F%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E9%A4%8A%E6%88%90%E8%AA%AD%E6%9C%AC-%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E7%9F%A5%E6%81%B5%E3%81%A8%E7%9F%A5%E8%AD%98%E3%81%8C%E6%BA%80%E8%BC%89%EF%BC%81-Software-Design-%EF%BD%90lus/dp/4774146005">サーバインフラエンジニア養成読本</a></p>
+]]></content>
+  </entry>
+  
+</feed>
