@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octopressテーマの変更 - My Laboratory</title>
+  <title>Gehirn Web Services を使ってみる - My Laboratory</title>
   <meta name="author" content="takimai">
 
   
-  <meta name="description" content="oct2-orangeプラグイン https://github.com/roberto/oct2-orange/blob/master/source/index.html git submodule add git://github.com/roberto/oct2-orange.git . &hellip;">
+  <meta name="description" content="以前、ServersManのVPSを使っていたが、あまりに使うこともなく、１年ほど使って解約した。
+今回使おうとしているGehirn Web Service R2はセキュリティに特色があるサービスで、既に細かくカスタマイズされた状態のVPSをはじめから使うことができる。
+価格もショートプラン（3. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://takimai.github.com/blog/2013/03/29/replacing-new-theme/">
+  <link rel="canonical" href="http://takimai.github.com/blog/2013/04/20/trying-to-use-gehirn-web-services/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
    <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -78,7 +80,7 @@
   
   <header>
     
-      <h1 class="entry-title">Octopressテーマの変更</h1>
+      <h1 class="entry-title">Gehirn Web Services を使ってみる</h1>
     
     
       <p class="meta">
@@ -94,29 +96,22 @@
   
 
 
-<time datetime="2013-03-29T00:35:00+09:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>
+<time datetime="2013-04-20T23:32:00+09:00" pubdate data-updated="true">Apr 20<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h3>oct2-orangeプラグイン</h3>
+<div class="entry-content"><p>以前、ServersManのVPSを使っていたが、あまりに使うこともなく、１年ほど使って解約した。
+今回使おうとしているGehirn Web Service R2はセキュリティに特色があるサービスで、既に細かくカスタマイズされた状態のVPSをはじめから使うことができる。
+価格もショートプラン（3.5G）で315円/月であり、試用も無料なので、気軽に始めることができる。すべて1人でシステムを作っているので、この価格ということだが、安いなぁ。。。。</p>
 
-<p>https://github.com/roberto/oct2-orange/blob/master/source/index.html</p>
+<p>今のところ、最終的な用途は確定できていないが、スナップショットも自由にとれるし、
+マシンを作ったり消したりも、コントロールパネルから簡単にできるので、
+ひとまずは、Octopressのローカル環境をデプロイするのに使おうかと思案中。</p>
 
-<pre><code>git submodule add git://github.com/roberto/oct2-orange.git .themes/oct2-orange
-rake install[oct2-orange] 
-</code></pre>
-
-<p>nav.html を_config.ymlへ追加する。</p>
-
-<pre><code>default_asides: [asides/nav.html, asides/recent_posts.html ....
-</code></pre>
-
-<h3>3rd Party Octopress Themes</h3>
-
-<p>https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</p>
+<p><a href="http://www.gehirn.co.jp/">Gehirn Web Services</a></p>
 </div>
 
 
@@ -139,12 +134,12 @@ rake install[oct2-orange]
   
 
 
-<time datetime="2013-03-29T00:35:00+09:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>
+<time datetime="2013-04-20T23:32:00+09:00" pubdate data-updated="true">Apr 20<span>th</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/octopress/'>Octopress</a>, <a class='category' href='/blog/categories/tips/'>Tips</a>
+    <a class='category' href='/blog/categories/vps/'>VPS</a>
   
 </span>
 
@@ -153,7 +148,7 @@ rake install[oct2-orange]
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://takimai.github.com/blog/2013/03/29/replacing-new-theme/" data-via="" data-counturl="http://takimai.github.com/blog/2013/03/29/replacing-new-theme/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://takimai.github.com/blog/2013/04/20/trying-to-use-gehirn-web-services/" data-via="" data-counturl="http://takimai.github.com/blog/2013/04/20/trying-to-use-gehirn-web-services/" >Tweet</a>
   
   
   
@@ -162,10 +157,8 @@ rake install[oct2-orange]
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/03/28/octopress-initial-setup/" title="Previous Post: Octopress初期セットアップ">&laquo; Octopress初期セットアップ</a>
+        <a class="basic-alignment left" href="/blog/2013/04/18/books-ive-read-or-planning-to-read/" title="Previous Post: これから読む本と読んだ本">&laquo; これから読む本と読んだ本</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/03/29/markdown-syntax-summary/" title="Next Post: Markdown記法まとめ">Markdown記法まとめ &raquo;</a>
       
     </p>
   </footer>
