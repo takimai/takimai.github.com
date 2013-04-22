@@ -9,9 +9,9 @@
   <meta name="author" content="takimai">
 
   
-  <meta name="description" content="以前、ServersManのVPSを使っていたが、あまりに使うこともなく、１年ほど使って解約した。
-今回使おうとしているGehirn Web Service R2はセキュリティに特色があるサービスで、既に細かくカスタマイズされた状態のVPSをはじめから使うことができる。
-価格もショートプラン（3. &hellip;">
+  <meta name="description" content="Gehirn R2 へSSHで接続する。 Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。 コントロールパネルにアクセスし、サービス : R2 を選択する。
+アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。
+&#8220;キーペアを生成する&#8221;を選択し、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,6 +83,70 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/04/22/remote-server-connection-via-ssh/">リモートサーバにSSHで接続する。</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-22T23:27:00+09:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Gehirn R2 へSSHで接続する。</h2>
+
+<h3>Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。</h3>
+
+<ol>
+<li>コントロールパネルにアクセスし、サービス : R2 を選択する。</li>
+<li>アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。</li>
+<li>&#8220;キーペアを生成する&#8221;を選択し、鍵のフォーマット:PKCS#1(pem)/鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。</li>
+<li>自動的に秘密鍵がダウンロードされる。</li>
+</ol>
+
+
+<h3>Rove Mobile Admin で接続する (iPhone/iPad)</h3>
+
+<p>Host    サーバのIPadress
+Port    22(default)
+Username    登録ユーザ名
+Password    公開鍵を使うのでなし
+Private Key ダウンロードした秘密鍵の中身をすべてコピーアンドペースト</p>
+
+<h3>Terminal(Mac OS X)から接続する。</h3>
+
+<p>Terminalを開き、以下のコマンドを実行する。
+ssh -l username -i ~/.ssh/”publickkey” IPadress</p>
+
+<h3>公開鍵と秘密鍵</h3>
+
+<p>公開鍵と秘密鍵については以下を読む。
+<a href="http://itpro.nikkeibp.co.jp/article/COLUMN/20071031/286010/?ST=selfup&amp;P=1">第3回　公開鍵と秘密鍵を作るアルゴリズム</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/04/20/trying-to-use-gehirn-web-services/">Gehirn Web Services を使ってみる</a></h1>
     
     
@@ -108,11 +172,11 @@
 
   <div class="entry-content"><p>以前、ServersManのVPSを使っていたが、あまりに使うこともなく、１年ほど使って解約した。
 今回使おうとしているGehirn Web Service R2はセキュリティに特色があるサービスで、既に細かくカスタマイズされた状態のVPSをはじめから使うことができる。
-価格もショートプラン（3.5G）で315円/月であり、試用も無料なので、気軽に始めることができる。すべて1人でシステムを作っているので、この価格ということだが、安いなぁ。。。。</p>
+価格もショートプラン（3.5G）で315円/月であり、試用も無料なので、気軽に始めることができる。すべて1人でシステムを作っているので、この価格ということだが、安いなぁ。。</p>
 
 <p>今のところ、最終的な用途は確定できていないが、スナップショットも自由にとれるし、
 マシンを作ったり消したりも、コントロールパネルから簡単にできるので、
-ひとまずは、Octopressのローカル環境をデプロイするのに使おうかと思案中。</p>
+ひとまずは、Octopressのローカル環境をデプロイするのに使おうと思っている。</p>
 
 <p><a href="http://www.gehirn.co.jp/">Gehirn Web Services</a></p>
 </div>
@@ -561,6 +625,10 @@ ruby -v
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/22/remote-server-connection-via-ssh/">リモートサーバにSSHで接続する。</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/20/trying-to-use-gehirn-web-services/">Gehirn Web Services を使ってみる</a>
       </li>
     
@@ -574,10 +642,6 @@ ruby -v
     
       <li class="post">
         <a href="/blog/2013/04/03/octopress-customization/">Octopress カスタマイズ</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/03/29/markdown-syntax-summary/">Markdown記法まとめ</a>
       </li>
     
   </ul>
