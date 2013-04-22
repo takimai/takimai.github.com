@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-23T01:19:42+09:00</updated>
+  <updated>2013-04-23T01:20:59+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -18,23 +18,18 @@
     <link href="http://takimai.github.com/blog/2013/04/22/remote-server-connection-via-ssh/"/>
     <updated>2013-04-22T23:27:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/04/22/remote-server-connection-via-ssh</id>
-    <content type="html"><![CDATA[<h2>Gehirn R2 へSSHで接続する。</h2>
+    <content type="html"><![CDATA[<h3>Gehirn R2 へSSHで接続する。</h3>
 
-<h4>Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。</h4>
+<h3>Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。</h3>
 
 <ol>
 <li>コントロールパネルにアクセスし、サービス : R2 を選択する。</li>
 <li>アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。</li>
-<li>&#8220;キーペアを生成する&#8221;を選択し、鍵のフォーマット:PKCS#1(pem) /鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。
-
-<ol>
-<li>自動的に秘密鍵がダウンロードされる。</li>
-</ol>
-</li>
+<li>&#8220;キーペアを生成する&#8221;を選択し、鍵のフォーマット:PKCS#1(pem) /鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。</li>
 </ol>
 
 
-<hr />
+<h2>4. 自動的に秘密鍵がダウンロードされる。</h2>
 
 <h3>Rove Mobile Admin で接続する (iPhone/iPad)</h3>
 
