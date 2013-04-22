@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-04-23T01:15:30+09:00</updated>
+  <updated>2013-04-23T01:17:34+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -20,17 +20,23 @@
     <id>http://takimai.github.com/blog/2013/04/22/remote-server-connection-via-ssh</id>
     <content type="html"><![CDATA[<h2>Gehirn R2 へSSHで接続する。</h2>
 
+<h4>Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。</h4>
+
+<ol>
+<li>コントロールパネルにアクセスし、サービス : R2 を選択する。</li>
+<li>アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。</li>
+<li>&#8220;キーペアを生成する&#8221;を選択し、鍵のフォーマット:PKCS#1(pem) /鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。
+
+<ol>
+<li>自動的に秘密鍵がダウンロードされる。</li>
+</ol>
+</li>
+</ol>
+
+
 <hr />
 
-<h3>Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。</h3>
-
-<p>　1. コントロールパネルにアクセスし、サービス : R2 を選択する。
-　2. アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。
-　3. &#8220;キーペアを生成する&#8221;を選択し、鍵のフォーマット:PKCS#1(pem)  /鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。</p>
-
-<h2>　4. 自動的に秘密鍵がダウンロードされる。</h2>
-
-<h3>Rove Mobile Admin で接続する (iPhone/iPad)</h3>
+<h4>Rove Mobile Admin で接続する (iPhone/iPad)</h4>
 
 <table>
 <thead>
@@ -51,7 +57,7 @@
 <tr>
 <td></td>
 <td> Port          </td>
-<td align="center"> 22(default)   </td>
+<td align="center">22(default)    </td>
 <td></td>
 </tr>
 <tr>
@@ -69,7 +75,7 @@
 <tr>
 <td></td>
 <td> Private Key   </td>
-<td align="center">ダウンロードした秘密鍵の中身をすべてコピーアンドペースト   </td>
+<td align="center">ダウンロードした秘密鍵の中身¥nをすべてコピーアンドペースト    </td>
 <td></td>
 </tr>
 </tbody>
@@ -78,7 +84,7 @@
 
 <hr />
 
-<h3>Terminal(Mac OS X)から接続する。</h3>
+<h4>Terminal(Mac OS X)から接続する。</h4>
 
 <p>Terminalを開き、以下のコマンドを実行する。</p>
 
