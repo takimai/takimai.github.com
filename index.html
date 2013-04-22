@@ -9,9 +9,9 @@
   <meta name="author" content="takimai">
 
   
-  <meta name="description" content="Gehirn R2 へSSHで接続する。 Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。 1. コントロールパネルにアクセスし、サービス : R2 を選択する。
-2. アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。
-3. "キーペアを生成する"を選択し、 &hellip;">
+  <meta name="description" content="Gehirn R2 へSSHで接続する。 Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。 コントロールパネルにアクセスし、サービス : R2 を選択する。
+アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。
+&#8220;キーペアを生成する&#8221;を選択し、 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -108,21 +108,71 @@
 
   <div class="entry-content"><h2>Gehirn R2 へSSHで接続する。</h2>
 
+<hr />
+
 <h3>Gehirn R2 でSSHの公開鍵/秘密鍵を作成する。</h3>
 
-<pre><code>1. コントロールパネルにアクセスし、サービス : R2 を選択する。
-2. アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。
-3. "キーペアを生成する"を選択し、鍵のフォーマット:PKCS#1(pem) /鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。
-4. 自動的に秘密鍵がダウンロードされる。
-</code></pre>
+<ol>
+<li>コントロールパネルにアクセスし、サービス : R2 を選択する。</li>
+<li>アカウント名　-　SSH　–　アカウント名　から公開鍵の管理を選択する。</li>
+<li>&#8220;キーペアを生成する&#8221;を選択し、鍵のフォーマット:PKCS#1(pem) /鍵の長さ:2048bitを選択し、”キーペアを作成する”を選択し、公開鍵を作成する。
+
+<ol>
+<li>自動的に秘密鍵がダウンロードされる。</li>
+</ol>
+</li>
+</ol>
+
+
+<hr />
 
 <h3>Rove Mobile Admin で接続する (iPhone/iPad)</h3>
 
-<p>Host    サーバのIPadress
-Port    22(default)
-Username    登録ユーザ名
-Password    公開鍵を使うのでなし
-Private Key ダウンロードした秘密鍵の中身をすべてコピーアンドペースト</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th> Tables        </th>
+<th align="center"> Are           </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td> Host          </td>
+<td align="center">サーバのIPadress   </td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td> Port          </td>
+<td align="center"> 22(default)   </td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td> Username      </td>
+<td align="center">登録ユーザ名     </td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td> Password      </td>
+<td align="center">公開鍵を使うのでなし </td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td> Private Key   </td>
+<td align="center">ダウンロードした秘密鍵の中身をすべてコピーアンドペースト   </td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<hr />
 
 <h3>Terminal(Mac OS X)から接続する。</h3>
 
