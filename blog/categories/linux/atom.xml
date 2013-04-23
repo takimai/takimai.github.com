@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | My Laboratory]]></title>
+  <link href="http://takimai.github.com/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://takimai.github.com/"/>
+  <updated>2013-04-23T23:45:12+09:00</updated>
+  <id>http://takimai.github.com/</id>
+  <author>
+    <name><![CDATA[takimai]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[システムの調査のためのLinuxコマンド]]></title>
+    <link href="http://takimai.github.com/blog/2013/04/23/linux-commands-for-system-specs/"/>
+    <updated>2013-04-23T23:34:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/04/23/linux-commands-for-system-specs</id>
+    <content type="html"><![CDATA[<p>メモリ</p>
+
+<pre><code>cat /proc/cpuinfo
+</code></pre>
+
+<p>マシン名・カーネルバージョン</p>
+
+<pre><code>cat /proc/meminfo
+</code></pre>
+
+<p>マシンのリソース利用状況</p>
+
+<pre><code>uname -a
+</code></pre>
+
+<p>メモリ/CPUの使用状況</p>
+
+<pre><code>vmstat
+</code></pre>
+
+<p>PUの使用状況/ディスクIOの状況のリアルタイム表示</p>
+
+<pre><code>top
+</code></pre>
+
+<p>CPU/メモリ/プロセスのリアルタイム表示</p>
+
+<pre><code>ps
+</code></pre>
+
+<p>プロセス状態の一覧表示</p>
+
+<pre><code>df
+</code></pre>
+
+<p>システム稼働時間とLoad Average</p>
+
+<pre><code>uptime
+</code></pre>
+
+<p>実メモリ/スワップの利用状況</p>
+
+<pre><code>free
+</code></pre>
+
+<p>ハードウェア情報の表示</p>
+
+<pre><code>lspci
+</code></pre>
+
+<p><a href="http://www.fulldigit.net/content/view/28/17/">よく使うLinuxコマンド</a></p>
+]]></content>
+  </entry>
+  
+</feed>
