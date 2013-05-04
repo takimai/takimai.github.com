@@ -4,7 +4,7 @@
   <title><![CDATA[My Laboratory]]></title>
   <link href="http://takimai.github.com/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-05-04T22:18:54+09:00</updated>
+  <updated>2013-05-04T22:20:23+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -18,9 +18,7 @@
     <link href="http://takimai.github.com/blog/2013/05/04/remote-desktop-connection-for-mac/"/>
     <updated>2013-05-04T22:13:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/05/04/remote-desktop-connection-for-mac</id>
-    <content type="html"><![CDATA[<p>Remote Desktop Connection for Mac</p>
-
-<p>リモートデスクトップ接続をMacでも使えるようなので、Microsoftが配布しているソフトを入手し、インストールをした。</p>
+    <content type="html"><![CDATA[<p>リモートデスクトップ接続をMacでも使えるようなので、Microsoftが配布しているソフトを入手し、インストールをした。</p>
 
 <p>現在は、Mac/Windows で1台ずつディスプレイを接続して、キーボード・マウスは、Synergyで共有している。
 Macに徐々に慣れてきたので、Windowsで使っているディスプレイを２画面目としてMacに接続し、Windowsはリモートデスクトップのみで接続できるようにする。
