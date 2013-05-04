@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mac | My Laboratory]]></title>
   <link href="http://takimai.github.com/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://takimai.github.com/"/>
-  <updated>2013-05-04T22:21:29+09:00</updated>
+  <updated>2013-05-04T22:22:11+09:00</updated>
   <id>http://takimai.github.com/</id>
   <author>
     <name><![CDATA[takimai]]></name>
@@ -18,10 +18,12 @@
     <link href="http://takimai.github.com/blog/2013/05/04/remote-desktop-connection-for-mac/"/>
     <updated>2013-05-04T22:13:00+09:00</updated>
     <id>http://takimai.github.com/blog/2013/05/04/remote-desktop-connection-for-mac</id>
-    <content type="html"><![CDATA[<p>リモートデスクトップ接続をMacでも使えるようなので、Microsoftが配布しているソフトを入手し、インストールをした。
-現在は、Mac/Windows で1台ずつディスプレイを接続して、キーボード・マウスは、Synergyで共有している。
-Macに徐々に慣れてきたので、Windowsで使っているディスプレイを２画面目としてMacに接続し、Windowsはリモートデスクトップのみで接続できるようにする。
-２画面化に必要なThunderboltのDVI端子変換アダプタを購入する。</p>
+    <content type="html"><![CDATA[<p>リモートデスクトップ接続をMacでも使えるようなので、Microsoftが配布しているソフトを入手し、インストールをした。</p>
+
+<p>現在は、Mac/Windows で1台ずつディスプレイを接続して、キーボード・マウスは、Synergyで共有している。
+Macに徐々に慣れてきたので、Windowsで使っているディスプレイを２画面目としてMacに接続し、Windowsはリモートデスクトップのみで接続できるようにする。</p>
+
+<p>２画面化に必要なThunderboltのDVI端子変換アダプタを購入する。</p>
 
 <p><a href="" title="http://www.microsoft.com/japan/mac/remote-desktop-client">Remote Desktop Connection for Mac</a></p>
 
