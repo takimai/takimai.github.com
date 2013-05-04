@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mac | My Laboratory]]></title>
+  <link href="http://takimai.github.com/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://takimai.github.com/"/>
+  <updated>2013-05-04T22:18:54+09:00</updated>
+  <id>http://takimai.github.com/</id>
+  <author>
+    <name><![CDATA[takimai]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[リモートデスクトップ接続(Mac向け)]]></title>
+    <link href="http://takimai.github.com/blog/2013/05/04/remote-desktop-connection-for-mac/"/>
+    <updated>2013-05-04T22:13:00+09:00</updated>
+    <id>http://takimai.github.com/blog/2013/05/04/remote-desktop-connection-for-mac</id>
+    <content type="html"><![CDATA[<p>Remote Desktop Connection for Mac</p>
+
+<p>リモートデスクトップ接続をMacでも使えるようなので、Microsoftが配布しているソフトを入手し、インストールをした。</p>
+
+<p>現在は、Mac/Windows で1台ずつディスプレイを接続して、キーボード・マウスは、Synergyで共有している。
+Macに徐々に慣れてきたので、Windowsで使っているディスプレイを２画面目としてMacに接続し、Windowsはリモートデスクトップのみで接続できるようにする。
+２画面化に必要なThunderboltのDVI端子変換アダプタを購入する。</p>
+
+<p><a href="" title="http://www.microsoft.com/japan/mac/remote-desktop-client">Remote Desktop Connection for Mac</a></p>
+
+<p><a href="" title="http://www.amazon.co.jp/gp/product/B0052GQ4S4/ref=oh_details_o00_s00_i00?ie=UTF8&amp;psc=1">PLANEX Mini Displayport -DVI端子変換アダプタ (MacBook MacBook Pro MacBook Air) PL-MDPDV02</a></p>
+]]></content>
+  </entry>
+  
+</feed>
